@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+
+.navigation ul a {
+  text-decoration: none;
+}
