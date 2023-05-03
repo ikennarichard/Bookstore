@@ -66,6 +66,8 @@
 ### Key Features <a name="key-features"></a>
 
 - Project setup with React
+- Books page
+- Section for adding new book
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +139,7 @@ npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
- Not available
+ Not available for now
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +158,8 @@ npx stylelint "**/*.{css,scss}"
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add page UI
+- Improve page UI
+- Add user interactions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
