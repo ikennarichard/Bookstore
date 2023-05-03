@@ -34,7 +34,7 @@
 
 # 📖 Bookstore <a name="about-project"></a>
 
-  Bookstore is an app that allows you to view a list of books, add new book and remove a book. Built using React and Redux (state management).
+  Bookstore is an app that allows you to view a list of books, add a new book and remove a book. Built using React and Redux (state management).
 
 ## 🛠 Built With <a name="built-with"></a>
 
