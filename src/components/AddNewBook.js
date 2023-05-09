@@ -1,17 +1,16 @@
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { addBook } from '../redux/books/booksSlice';
 
 export default function AddNewBook() {
   const [values, setValue] = useState({});
-  const books = useSelector((state) => state.books.value);
   const dispatch = useDispatch();
 
   function handleChange(e) {
     const { name } = e.target;
     const { value } = e.target;
     setValue((values) => ({
-      ...values, item_id: `item${books.length + 1}`, [name]: value,
+      ...values, item_id: crypto.randomUUID(), [name]: value,
     }));
   }
 
