@@ -7,6 +7,12 @@ export default function BooksList() {
   const { isLoading, isError, value } = useSelector((state) => state.books);
   const dispatch = useDispatch();
 
+  useEffect(() => {
+    dispatch(getBooks());
+  }, [dispatch]);
+
+  const loading = isLoading && <p>Loading...</p>;
+  const error = isError && <p>Error loading books, try again</p>;
 
   return (
     <>
