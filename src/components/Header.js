@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1>Bookstore CMS</h1>
+      <h1 className={styles.heading_text}>Bookstore CMS</h1>
       <nav className={styles.navigation}>
         <ul>
           <li><Link to="/">Books</Link></li>
