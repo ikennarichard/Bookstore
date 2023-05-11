@@ -1,15 +1,53 @@
 .header {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em 1.2em 3em;
+  gap: 1em;
+}
+
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.im_icon {
+  border: 1px solid #d3d3d3;
+  color: #0290ff;
+  padding: 1em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.im_icon > * {
+  flex: 1 0 auto;
 }
 
 .navigation ul {
   display: flex;
-  list-style: none;
   gap: 1em;
+  list-style: none;
+  margin-bottom: auto;
 }
 
 .navigation ul a {
+  color: #121212;
   text-decoration: none;
+  opacity: 0.5;
+}
+
+.navigation ul a:focus,
+.navigation ul a:active {
+  opacity: 1;
+}
+
+.heading_text {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
 }

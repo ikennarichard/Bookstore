@@ -1,0 +1,45 @@
+section {
+  margin-top: 2em;
+}
+
+section h2 {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+hr {
+  border: 1px solid #d3d3d3;
+  margin-top: 3em;
+}
+
+.inputs {
+  padding: 0.5em 1em;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  outline: none;
+}
+
+.inputs:nth-child(1) {
+  width: 500px;
+}
+
+.inputs:nth-child(2) {
+  width: 200px;
+  margin-right: 2em;
+}
+
+.submit_btn {
+  appearance: none;
+  border: none;
+  background-color: var(--textColor);
+  color: white;
+  padding: 0.5em 2em;
+  font-size: 0.7em;
+  cursor: pointer;
+}
