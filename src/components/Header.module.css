@@ -1,15 +1,30 @@
 .header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  border: 1px solid red;
+  padding: 1.6em 1.6em;
+  gap: 1em;
 }
 
 .navigation ul {
   display: flex;
-  list-style: none;
   gap: 1em;
+  list-style: none;
+  margin-bottom: auto;
 }
 
 .navigation ul a {
+  color: #121212;
   text-decoration: none;
+  opacity: 0.5;
+}
+
+.navigation ul a:focus, .navigation ul a:active {
+  opacity: 1;
+}
+
+.heading_text {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
 }
