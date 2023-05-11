@@ -1,8 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { addBook, deleteBook } from '../utils';
+import { addBook, deleteBook, getBooks } from '../utils';
 
 const initialState = {
   value: [],
+  isLoading: false,
+  isError: undefined,
 };
 
 export const booksSlice = createSlice({
@@ -17,6 +19,20 @@ export const booksSlice = createSlice({
 
     builder.addCase(deleteBook.fulfilled, (state, action) => {
       state.value = state.value.filter((book) => book.item_id !== action.payload);
+    });
+
+    builder.addCase(getBooks.pending, (state) => {
+      state.isLoading = true;
+    });
+
+    builder.addCase(getBooks.fulfilled, (state, action) => {
+      state.isLoading = false;
+      state.value = action.payload;
+    });
+
+    builder.addCase(getBooks.rejected, (state) => {
+      state.isLoading = false;
+      state.isError = true;
     });
   },
 });
