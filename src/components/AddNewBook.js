@@ -2,8 +2,15 @@ import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { addBook } from '../redux/utils';
 
+const template = {
+  item_id: '',
+  title: '',
+  author: '',
+  category: '',
+};
+
 export default function AddNewBook() {
-  const [values, setValue] = useState({});
+  const [values, setValue] = useState(template);
   const dispatch = useDispatch();
 
   function handleChange(e) {
