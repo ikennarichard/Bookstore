@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
-import { addBook } from '../redux/books/booksSlice';
+import { addBook } from '../redux/utils';
 
 export default function AddNewBook() {
   const [values, setValue] = useState({});
