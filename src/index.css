@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
 
 :root {
   --montserrat: 'Montserrat', sans-serif;
+  --robotSlab: 'Roboto Slab', sans-serif;
+  --textColor: #0290ff;
 }
 
 *, *::before, *::after {
