@@ -15,7 +15,8 @@
   gap: 1em;
 }
 
-.book_details h2, .book_details p {
+.book_details h2,
+.book_details p {
   font-family: var(--robotSlab);
 }
 
@@ -59,13 +60,10 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  margin-top: 6px;
 }
 
 .chapter_heading {
   font-size: 1rem;
   color: #b4b4b4;
-}
-
-.chapter {
-  margin-top: 6px;
 }

@@ -41,7 +41,8 @@
   opacity: 0.5;
 }
 
-.navigation ul a:focus, .navigation ul a:active {
+.navigation ul a:focus,
+.navigation ul a:active {
   opacity: 1;
 }
 
