@@ -1,7 +1,6 @@
 .header {
   display: flex;
   align-items: baseline;
-  border: 1px solid red;
   padding: 1.6em 1.6em;
   gap: 1em;
 }
