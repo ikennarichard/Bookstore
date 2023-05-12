@@ -29,6 +29,7 @@
   border: none;
   background: none;
   color: var(--textColor);
+  cursor: pointer;
 }
 
 .btn:nth-child(2) {
