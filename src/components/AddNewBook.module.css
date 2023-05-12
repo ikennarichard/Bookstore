@@ -41,4 +41,5 @@ hr {
   color: white;
   padding: 0.5em 2em;
   font-size: 0.7em;
+  cursor: pointer;
 }
