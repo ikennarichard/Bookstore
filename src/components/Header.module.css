@@ -1,8 +1,31 @@
 .header {
   display: flex;
-  align-items: baseline;
-  padding: 1.6em 1.6em;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0 0.4em 0;
   gap: 1em;
+}
+
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.im_icon {
+  border: 1px solid #d3d3d3;
+  color: #0290ff;
+  padding: 1em;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.im_icon > * {
+  flex: 1 0 auto;
 }
 
 .navigation ul {
