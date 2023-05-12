@@ -29,7 +29,7 @@ export default function Book({ title, author, removeBook }) {
       <div className={style.chapter}>
         <div>
           <p className={style.chapter_heading}>CURRENT CHAPTER</p>
-          <p>{`Chapter ${chapter()}`}</p>
+          <p className={style.chapter}>{`Chapter ${chapter()}`}</p>
         </div>
         <button type="button" className={style.progress_update}>UPDATE PROGRESS</button>
       </div>
