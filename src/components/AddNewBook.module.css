@@ -42,4 +42,30 @@ hr {
   padding: 0.5em 2em;
   font-size: 0.7em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_btn:hover {
+  background-color: white;
+  color: var(--textColor);
+}
+
+@media (max-width: 768px) {
+  form {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .inputs:nth-child(1) {
+    width: 100%;
+  }
+  
+  .inputs:nth-child(2) {
+    width: 100%;
+  }
+
+  .submit_btn {
+    width: 50%;
+    margin-inline: auto;
+  }
 }
