@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Not available for now
+[Live Demo](https://rich-bookstore.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
