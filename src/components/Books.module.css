@@ -1,0 +1,8 @@
+.container {
+  background-color: #fafafa;
+  padding: 1.5em 3em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
