@@ -1,16 +1,10 @@
 import BooksList from './BooksList';
 import AddNewBook from './AddNewBook';
+import styles from './Books.module.css';
 
 export default function Books() {
   return (
-    <div style={
-      {
-        backgroundColor: '#fafafa',
-        padding: '1.5em 3em',
-        paddingBottom: '3em',
-      }
-    }
-    >
+    <div className={styles.container}>
       <BooksList />
       <AddNewBook />
     </div>
