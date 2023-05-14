@@ -9,7 +9,7 @@ const container = {
 };
 
 export default function ProgressBar() {
-  const [value] = useState(Math.floor(Math.random() * 99));
+  const [value] = useState(Math.floor(Math.random() * 99 + 1));
   return (
     <div style={container}>
       <div style={{ width: 100, height: 100 }}>
