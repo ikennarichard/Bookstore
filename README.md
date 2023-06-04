@@ -152,7 +152,7 @@ npx stylelint "**/*.{css,scss}"
 👤 **Author1**
 
 - GitHub: [ikennarichard](https://github.com/ikennarichard)
-- LinkedIn: [Ikenna Oguejiofor](https://linkedin.com/in/ikenna-oguejiofor-38076a237)
+- LinkedIn: [Ikenna Oguejiofor](https://linkedin.com/in/ikenna-richard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
